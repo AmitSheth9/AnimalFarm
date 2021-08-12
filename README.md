@@ -1,3 +1,7 @@
+AnimalFarm 
+
+https://github.com/Asvc9/AnimalFarm
+
 ## Making a plan
 1) Make a drawing of your app. Simple "wireframes"
 2) Once you have a drawing, name the HTML elements you'll need to realize your vision
@@ -8,4 +12,5 @@
 7) Think about how to validate each of your steps
 8) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
 9) Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.
+
 
