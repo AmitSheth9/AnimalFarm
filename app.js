@@ -34,3 +34,20 @@ Dogpic.addEventListener('click', () => {
   
 });
 
+document.addEventListener('keydown', (event) => {
+
+    if (event.key === 'd') {
+      Bark.play();
+      Animalclick.textContent = "The sound a dog makes..."
+    }
+
+    if (event.key === 'h') {
+      Neigh.play();
+      Animalclick.textContent = "The sound a horse makes..."
+    }
+
+    if (event.key === 'c') {
+      Meow.play();
+      Animalclick.textContent = "The sound a cat makes..."
+    }
+});
